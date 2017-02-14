@@ -10,9 +10,7 @@ import { Component } from '@angular/core'
         <h1>Upcoming Angular 2 Events</h1>
     </div>
     <hr>
-    <event-thumbnail #thumbnail [event]="event"></event-thumbnail>
-    <h3>{{thumbnail.someProperty}}</h3>
-    <button class="btn btn-primary" (click)="thumbnail.logFoo()">Log Me some foo</button>
+    <event-thumbnail [event]="event"></event-thumbnail>
     `
 })
 export class EventsListComponent {
