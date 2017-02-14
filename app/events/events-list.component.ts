@@ -5,7 +5,13 @@ import { Component } from '@angular/core'
 
 @Component({
     selector: 'events-list',
-    templateUrl: 'app/events/events-list.component.html'
+    template: `
+    <div>
+        <h1>Upcoming Angular 2 Events</h1>
+    </div>
+    <hr>
+    <event-thumbnail [event]="event"></event-thumbnail>
+    `
 })
 export class EventsListComponent {
     event = {
