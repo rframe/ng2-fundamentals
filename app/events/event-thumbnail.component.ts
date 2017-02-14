@@ -17,6 +17,10 @@ import { Component, Input } from '@angular/core'
             </div>
         </div>
     `,
+    //Research
+    //      BEM http://getbem.com/
+    //      SMACSS https://smacss.com/
+    //      Deep selector to apply style to child components
     styles: [`
         .pad-left { margin-left: 10px; }
         .well div { color: #bbb }
